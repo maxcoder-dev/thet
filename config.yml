@@ -61,7 +61,7 @@ gaviota:
   max_pieces: 5                           # Count of max pieces in the local gaviota endgame tablebases.
 
 opening_books:
-  enabled: true                          # Activate opening books.
+  enabled: false                          # Activate opening books.
   priority: 400                           # Priority with which this move source is used. Higher priority is used first.
   books:
 #   bullet:
@@ -144,7 +144,7 @@ resign:
 # min_rating: 2300                        # Minimum rating of opponent to resign.
 
 challenge:                                # Incoming challenges.
-  concurrency: 6                          # Number of games to play simultaneously.
+  concurrency: 11                          # Number of games to play simultaneously.
   max_takebacks: 3                        # Maximum number of takebacks granted to a human.
   bullet_with_increment_only: false       # Whether bullet games against BOTs should only be accepted with increment.
 # min_increment: 0                        # Minimum amount of increment to accept a challenge.
